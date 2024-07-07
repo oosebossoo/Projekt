@@ -10,9 +10,9 @@ namespace Projekt
             
             Console.Clear();
             Console.WriteLine(
-                            "Witaj w programie zaliczeniowym przedmiot Metody numeryczne.\n\n" +
-                            "Możesz wybrać dowolne zadnie i podpunkt, żeby sprawdzić \n" +
-                            "poprawność działać.\n"
+                "Witaj w programie zaliczeniowym przedmiot Metody numeryczne.\n\n" +
+                "Możesz wybrać dowolne zadnie i podpunkt, żeby sprawdzić \n" +
+                "poprawność działać.\n"
             );
             Console.ReadKey();
             Console.Clear();
@@ -35,7 +35,7 @@ namespace Projekt
                 switch(input.Key)
                 {
                     case ConsoleKey.D1:
-                        showTask3();
+                        showTask1();
                         break;
                     case ConsoleKey.D2:
                         showTask2();
@@ -44,7 +44,10 @@ namespace Projekt
                         showTask3();
                         break;
                     case ConsoleKey.D4:
-                        showTask3();
+                        Console.Clear();
+                        Task4.Equation();
+                        Console.ReadKey();
+                        Console.Clear();
                         break;
                     case ConsoleKey.D0:
                         loop = false;
@@ -53,6 +56,14 @@ namespace Projekt
                         break;
                 }
             } while (loop);
+        }
+
+        public static void showTask1()
+        {
+            Console.Clear();
+            Task1.Equation();
+            Console.ReadKey();
+            Console.Clear();
         }
 
         public static void showTask2()

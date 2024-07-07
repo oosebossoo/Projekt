@@ -34,9 +34,9 @@ namespace Projekt.Tasks
 
         public static void Equation()
         {
-            double a = 1.0; // Przykładowa wartość współczynnika a
-            double b = 0.0; // Przykładowa wartość współczynnika b
-            double c = 0.0; // Przykładowa wartość współczynnika c
+            double a = 1.0;
+            double b = 0.0;
+            double c = 0.0;
 
             List<double> xTable = new List<double>();
             List<double> wTable = new List<double>();

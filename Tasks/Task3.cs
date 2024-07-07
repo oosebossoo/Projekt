@@ -9,10 +9,6 @@ namespace Projekt.Tasks
 {
     public class Task3
     {
-        /**
-         * Zadanie 6.3
-         */
-
         public static double Function(double x)
         {
             return Math.Log(x) + Math.Exp(0.5 * x) - 4;
@@ -121,10 +117,5 @@ namespace Projekt.Tasks
             }
             Console.WriteLine("Pierwiastek równania: " + c);
         }
-
-        /**
-         * Zadanie 6.2
-         */
-        
     }
 }
